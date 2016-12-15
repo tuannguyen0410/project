@@ -1,0 +1,4 @@
+Viet-Cadewa
+from-email:naohiro-ishiohmaru@vn.pasonatech.co.jp
+smtp.gmail.com
+465
