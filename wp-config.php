@@ -64,7 +64,7 @@ define('NONCE_SALT',       'SX~je<x|U-WC}-E~d+azBQ|zH!aSV# 73VX5)!+xSdxD7e#p3?5:
  * それぞれにユニーク (一意) な接頭辞を与えることで一つのデータベースに複数の WordPress を
  * インストールすることができます。半角英数字と下線のみを使用してください。
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'ot_';
 
 /**
  * ローカル言語 - このパッケージでは初期値として 'ja' (日本語 UTF-8) が設定されています。
@@ -73,7 +73,7 @@ $table_prefix  = 'wp_';
  * wp-content/languages にインストールされている必要があります。例えば de_DE.mo を
  * wp-content/languages にインストールし WPLANG を 'de_DE' に設定することでドイツ語がサポートされます。
  */
-define('WPLANG', 'ja');
+define('WPLANG', 'en');
 
 /**
  * 開発者へ: WordPress デバッグモード
@@ -81,7 +81,7 @@ define('WPLANG', 'ja');
  * この値を true にすると、開発中に注意 (notice) を表示します。
  * テーマおよびプラグインの開発者には、その開発環境においてこの WP_DEBUG を使用することを強く推奨します。
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 
 /* 編集が必要なのはここまでです ! WordPress でブログをお楽しみください。 */
 
