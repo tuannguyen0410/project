@@ -33,7 +33,7 @@ define('DB_PASSWORD', 'p52Szs');
 define('DB_HOST', 'db4.exasia.net');
 
 /** データベースのテーブルを作成する際のデータベースのキャラクターセット */
-define('DB_CHARSET', 'utf8 ');
+define('DB_CHARSET', 'utf8');
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
