@@ -33,7 +33,7 @@ define('DB_PASSWORD', 'p52Szs');
 define('DB_HOST', 'db4.exasia.net');
 
 /** データベースのテーブルを作成する際のデータベースのキャラクターセット */
-define('DB_CHARSET', 'utf8 ');
+define('DB_CHARSET', 'utf8');
 
 /** データベースの照合順序 (ほとんどの場合変更する必要はありません) */
 define('DB_COLLATE', '');
@@ -64,7 +64,7 @@ define('NONCE_SALT',       'SX~je<x|U-WC}-E~d+azBQ|zH!aSV# 73VX5)!+xSdxD7e#p3?5:
  * それぞれにユニーク (一意) な接頭辞を与えることで一つのデータベースに複数の WordPress を
  * インストールすることができます。半角英数字と下線のみを使用してください。
  */
-$table_prefix  = 'ot_';
+$table_prefix  = 'wp_';
 
 /**
  * ローカル言語 - このパッケージでは初期値として 'ja' (日本語 UTF-8) が設定されています。
